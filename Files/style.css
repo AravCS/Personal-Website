@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Lora:ital,wght@0,400..700;1,400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Pacifico&display=swap');
+
+body {
+    background-color: black;
+    color: white;
+    font-family: Montserrat;
+    margin: 0;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 12px;
+    margin-right: 12px;
+    margin-top: 6px;
+    padding-bottom: 6px;
+    height: 64px;
+}
+
+.name {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 6px;
+}
+
+.nav {
+    list-style-type: none;
+    display: flex;
+    gap: 12px;
+}
+
+.img1 {
+    margin-top: 4px;
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+}
+
+.img1:hover {
+    transition: 2s;
+    border-radius: 0%;
+}
+
+.img2 {
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+    height: 500px;
+    width: 100%;
+    margin-top: 5px;
+}
+
+.Info {
+    display: flex;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 45px;
+}
+
+.text {
+    text-align: center;
+    font-size: 32px;
+}
+
+span {
+    color: darkturquoise;
+}
+
+.pics {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 75px;
+    margin-bottom: 100px;
+}
+
+.nav-pics {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.nav-pics:hover {
+    transition: 0.8s ease;
+    width: 225px;
+    height: 225px;
+}
+
+.text-and-img {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
+
+.footer {
+    border-top: 1px solid gray;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    color: lightblue;
+    text-decoration: underline;
+}
